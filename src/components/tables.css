@@ -1,0 +1,41 @@
+.table-container{
+    width: 100%;
+}
+
+table{
+    background-color: #DFDCE3;
+    color: black;
+    border-radius: 10px;
+    table-layout: fixed;
+    width: 400px
+}
+
+th{
+    font-size: 1.2rem;
+}
+
+tbody td{
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+.delete-people{
+    padding: 0.2rem;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s ease-in all;
+}
+
+.delete-people:hover{
+    background-color: #FC4A1A;
+    color: #DFDCE3;
+}
+
+
+@media (max-width: 450px) {
+    
+    table{
+        width: 100%;
+    }
+
+}

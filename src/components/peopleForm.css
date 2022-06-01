@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+input{
+    padding: 0.2rem;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s ease-in all;
+}
+
+input[type=submit]:hover{
+    background-color: #26a839;
+    color: #DFDCE3;
+}
+
+
+
+
+@media (max-width: 450px) {
+    
+    form{
+        flex-direction: column;
+    }
+
+}
